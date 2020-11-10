@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import reducer from "./reducer/reducer.js";
 import {Provider} from "react-redux";
 import {createStore} from 'redux';
-import {loadState, saveState} from "./localStorage.js"
 import {throttle} from "lodash";
 
 
