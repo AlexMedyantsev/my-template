@@ -1,18 +1,10 @@
 import React, {PureComponent} from "react";
 import {connect} from "react-redux";
 
-class Main extends PureComponent {
+function Main() {
+  return <React.Fragment>
 
-  constructor(props) {
-    super();
-
-  }
-
-  render() {
-    return <React.Fragment>
-
-    </React.Fragment>
-  }
+  </React.Fragment>
 }
 
 const mapStateToProps = (state) => {
